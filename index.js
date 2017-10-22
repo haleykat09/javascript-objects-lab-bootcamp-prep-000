@@ -14,10 +14,10 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 
 function deleteFromObjectByKey(object, key) {
   return Object.assign({}, "prop2", {})
-
 }
 
 function destructivelyDeleteFromObjectByKey( object, key) {
   delete object["prop2"]
+  
   return object
 }
