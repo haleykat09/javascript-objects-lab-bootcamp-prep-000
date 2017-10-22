@@ -9,5 +9,10 @@ function updateObjectWithKeyAndValue(object, key, value) {
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   object.prop2 = 2
 
-  return object
+  return object 
+}
+
+function deleteFromObjectByKey(object, key) {
+  return Object.assign({}, prop2, {})
+  
 }
