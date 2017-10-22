@@ -16,4 +16,3 @@ function deleteFromObjectByKey(object, key) {
   return Object.assign({}, "prop2", {})
 
 }
-
