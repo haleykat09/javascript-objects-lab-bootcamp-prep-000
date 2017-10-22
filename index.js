@@ -1,7 +1,9 @@
 var recipes = {flour: "1 cup"}
 
-function updateObjectWithKeyAndValue(object, key, value) {
-  recipes.eggs = '2'
+var object = {prop: 1}
 
-  return recipes
+function updateObjectWithKeyAndValue(object, key, value) {
+  object["prop2"] = '2'
+
+  return object
 }
